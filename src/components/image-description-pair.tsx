@@ -27,7 +27,7 @@ const ImageDescriptionPair = () => {
         </div>
         <div className="relative h-72 w-72">
           <Image
-            src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${selectedItem.image.url}`}
+            src={selectedItem.image.url}
             alt="Description Image"
             fill
             className="object-cover rounded-full"
